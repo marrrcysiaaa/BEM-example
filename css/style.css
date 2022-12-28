@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #303c4b;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #CCD5D1;
+}
+
+.card {
+  width: 400px;
+  background-color: #E0F0EF;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card__img {
+  width: 100%;
+}
+.card__body {
+  padding: 10px 20px;
+}
+.card__h2 {
+  margin: 10px 20px;
+}
+.card__text {
+  margin: 20px 0;
+}
+.card__btns {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+.card__btn {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.card__btn--lightening {
+  background-color: #699ABB;
+}/*# sourceMappingURL=style.css.map */
